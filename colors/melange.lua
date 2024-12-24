@@ -44,7 +44,7 @@ for name, attrs in pairs {
   -- TermCursor = {},
   TermCursorNC = { bg = a.sel },
 
-  ColorColumn = { bg = a.float },
+  ColorColumn = { bg = a.sel },
   CursorColumn = 'ColorColumn',
   CursorLine = 'ColorColumn',
   VertSplit = { fg = a.ui },
